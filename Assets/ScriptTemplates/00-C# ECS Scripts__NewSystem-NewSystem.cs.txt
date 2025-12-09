@@ -1,0 +1,17 @@
+using Unity.Entities;
+using Unity.Mathematics;
+
+#ROOTNAMESPACEBEGIN#
+    public partial class #SCRIPTNAME# : SystemBase
+    {
+        protected override void OnCreate ()
+        {
+            #NOTRIM#
+        }
+
+        protected override void OnUpdate ()
+        {
+            #NOTRIM#
+        }
+    }
+#ROOTNAMESPACEEND#
