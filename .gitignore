@@ -100,3 +100,4 @@ InitTestScene*.unity*
 /.vscode
 /Assets/SceneDependencyCache
 Assets/SceneDependencyCache.meta
+*.DS_Store
