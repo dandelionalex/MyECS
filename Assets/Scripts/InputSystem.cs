@@ -23,7 +23,7 @@ namespace Dandelion.ECS
         protected override void OnUpdate ()
         {
             float2 move = (float2)_controls.Player.Move.ReadValue<Vector2>();
-            SystemAPI.SetSingleton(new InputComponent {movement = move});
+            SystemAPI.SetSingleton(new InputComponent {Movement = move});
         }
     }
 }

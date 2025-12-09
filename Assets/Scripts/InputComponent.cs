@@ -5,7 +5,7 @@ namespace Dandelion.ECS
 {
     public struct InputComponent : IComponentData
     {
-        public float2 movement;
+        public float2 Movement;
     }
 }
 
